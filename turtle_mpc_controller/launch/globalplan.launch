@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+    <!-- load -->
+    <node name="globalplanner" pkg="turtle_mpc_controller" type="turtle_mpc_controller" output="screen"/>
+
+    <!-- <node pkg="tf" type="static_transform_publisher" name="tf_base_into_lidar" args="0 0 0 0 0 0 $(arg base_frame) $(arg lidar_frame) 100" /> -->
+
+</launch>
